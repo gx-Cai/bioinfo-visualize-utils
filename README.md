@@ -10,4 +10,4 @@ Wiki page for more details (still in development). [see here](https://github.com
 - [ ] With a requirement file.
 - [ ] There may be some issues with high version of seaborn, which is caused by 'statannotations' package and 'adding_stat_annote' function.
   - [ ] Reconstruct the statannotations package.
-- [ ] Reconstruct the file tree structure.
+- [x] Reconstruct the file tree structure.

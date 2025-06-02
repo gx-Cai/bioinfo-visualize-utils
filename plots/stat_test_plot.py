@@ -14,7 +14,6 @@ def regression_scatter_line(
     show_plots = True,
     **legend_kwargs
 ):
-    from scipy.stats import pearsonr, spearmanr
     def scatter_reg_lines(ax, label = regression_y):
         sns.set_style('whitegrid')
         rho, pval = corr_func(mdf[label],mdf[regression_x])
